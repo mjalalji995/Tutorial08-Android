@@ -36,5 +36,6 @@ public class display extends AppCompatActivity {
         userdata += "\nGender: " + cursor.getString(6);
         userdata += "\nCity: " + cursor.getString(7);
         display.setText(userdata);
+
     }
 }
