@@ -23,7 +23,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     private static  final String branch = "branch";
     private static  final String gen = "gender";
     private static  final String location = "city";
-    String Branch_val = "Other";public MyDatabaseHelper(@Nullable Context context) {
+    String Branch_val = "Other";
+    public MyDatabaseHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
     @Override
